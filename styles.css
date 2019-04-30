@@ -1,0 +1,77 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background-color: #F5F5F5;
+}
+
+h3 {
+	font-weight: normal;
+	margin-bottom: 35px;
+}
+
+label {
+	color: #8993AD;
+}
+
+input[type="text"], textarea {
+	background-color: #F9F9F9;
+	font-size: 16px;
+	margin: 10px 0 30px 0;
+	padding: 15px;
+	border: 1px solid #EBEBEB;
+	width: 360px;
+	font-size: 16px;
+}
+
+textarea {
+	resize: none;
+	font-family: Arial;
+}
+
+input[type="submit"] {
+	height: 55px;
+	width: 220px;
+	background-color: #2174FD;
+	color: #FFFFFF;
+	font-size: 16px;
+	border: none;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 60px;
+}
+
+	#list {
+		position: absolute;
+		left: 0;
+		margin-bottom: 115px;
+		width: 460px;
+	}
+		#empty {
+			color: #8993AD;
+			margin-top: 80px;
+		}
+
+	#add-new {
+		position: absolute;
+		right: 0;
+		margin-bottom: 115px;
+	}
+
+		#to-do {
+			background-color: #FFFFFF;
+			padding: 50px 40px;
+		}
+
+			#to-do-title {
+				/*height: 30px;*/
+			}
+
+			#to-do-decription {
+				height: 230px;
+				text
+			}

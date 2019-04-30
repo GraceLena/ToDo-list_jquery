@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Список дел</title>
+	
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<main id="container">
+		<section id="list">
+			<h3>Список дел:</h3>
+			<div id="empty">Список пуст...</div>
+		</section>
+		<section id="add-new">
+			<h3>Добавить новое дело</h3>
+			<form id="to-do">
+				<label for="to-do-title">* Название</label><br>
+				<input type="text" name="title" id="to-do-title" required><br>
+				<label for="to-do-decription">* Описание</label><br>
+				<textarea id="to-do-decription" name="decription" required></textarea><br>
+				<input type="submit" id="submit" value="Добавить дело">
+			</form>
+		</section>
+	</main>
+</body>
+</html>
